@@ -1,9 +1,5 @@
 hello
 world
-tabs							
-spaces       
+tabs
+spaces
 new lines
-
-
-
-
