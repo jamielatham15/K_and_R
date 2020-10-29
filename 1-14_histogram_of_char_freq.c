@@ -12,7 +12,7 @@ int main()
 	int c = EOF;
 	int char_freq[ALPHA + 1];
 
-	for(i = 65; i <= 90; ++i) 
+	for (i = 65; i <= 90; ++i)
 	{
 		char_freq[i] = 0;
 	}
@@ -22,13 +22,12 @@ int main()
 		++char_freq[c];
 	}
 
-	for ( i = 65; i <= 90; ++i ) 
+	for (i = 65; i <= 90; ++i)
 	{
 		printf("|%2d| ", i);
-		for ( j = 0 ; j < char_freq[i]; ++j)
-	putchar('*');
-		
+		for (j = 0; j < char_freq[i]; ++j)
+			putchar('*');
+
 		putchar('\n');
 	}
-
 }

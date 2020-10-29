@@ -3,7 +3,7 @@
 int main()
 {
 	int c, multi;
-	
+
 	multi = 0;
 
 	while ((c = getchar()) != EOF)
@@ -16,10 +16,10 @@ int main()
 				multi = 1;
 			}
 		}
-		if (c != ' ') 
+		if (c != ' ')
 		{
 			putchar(c);
-		        multi = 0;
+			multi = 0;
 		}
 	}
 }

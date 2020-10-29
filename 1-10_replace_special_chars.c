@@ -3,7 +3,6 @@
 int main()
 {
 	int c, d;
-	
 
 	while ((c = getchar()) != EOF)
 	{
